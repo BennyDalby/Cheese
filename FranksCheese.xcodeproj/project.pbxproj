@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52552F302481704500742CA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52552F2F2481704500742CA0 /* AppDelegate.swift */; };
+		52552F342481704500742CA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52552F332481704500742CA0 /* ViewController.swift */; };
+		52552F372481704500742CA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52552F352481704500742CA0 /* Main.storyboard */; };
+		52552F392481705A00742CA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52552F382481705A00742CA0 /* Assets.xcassets */; };
+		52552F3C2481705A00742CA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52552F3A2481705A00742CA0 /* LaunchScreen.storyboard */; };
+		52552F442481823700742CA0 /* CheeseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52552F432481823700742CA0 /* CheeseListViewController.swift */; };
+		52552F462484DE9B00742CA0 /* AddtoCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52552F452484DE9B00742CA0 /* AddtoCartViewController.swift */; };
+		52552F48248554B200742CA0 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52552F47248554B200742CA0 /* Extentions.swift */; };
+		52552F562485A83300742CA0 /* Cera Pro Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52552F4A2485A83200742CA0 /* Cera Pro Medium.otf */; };
+		52552F572485A83300742CA0 /* Cera Pro Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52552F4B2485A83200742CA0 /* Cera Pro Thin.otf */; };
+		52552F582485A83300742CA0 /* Cera Pro Regular Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52552F4C2485A83200742CA0 /* Cera Pro Regular Italic.otf */; };
+		52552F592485A83300742CA0 /* Cera Pro Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52552F4D2485A83200742CA0 /* Cera Pro Bold Italic.otf */; };
+		52552F5A2485A83300742CA0 /* Cera Pro Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52552F4E2485A83200742CA0 /* Cera Pro Light Italic.otf */; };
+		52552F5B2485A83300742CA0 /* Cera Pro Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52552F4F2485A83200742CA0 /* Cera Pro Bold.otf */; };
+		52552F5C2485A83300742CA0 /* Cera Pro Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52552F502485A83300742CA0 /* Cera Pro Regular.otf */; };
+		52552F5D2485A83300742CA0 /* Cera Pro Thin Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52552F512485A83300742CA0 /* Cera Pro Thin Italic.otf */; };
+		52552F5E2485A83300742CA0 /* Cera Pro Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52552F522485A83300742CA0 /* Cera Pro Black.otf */; };
+		52552F5F2485A83300742CA0 /* Cera Pro Black Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52552F532485A83300742CA0 /* Cera Pro Black Italic.otf */; };
+		52552F602485A83300742CA0 /* Cera Pro Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52552F542485A83300742CA0 /* Cera Pro Light.otf */; };
+		52552F612485A83300742CA0 /* Cera Pro Medium Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52552F552485A83300742CA0 /* Cera Pro Medium Italic.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52552F2C2481704500742CA0 /* FranksCheese.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FranksCheese.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52552F2F2481704500742CA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52552F332481704500742CA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52552F362481704500742CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52552F382481705A00742CA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52552F3B2481705A00742CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52552F3D2481705A00742CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52552F432481823700742CA0 /* CheeseListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheeseListViewController.swift; sourceTree = "<group>"; };
+		52552F452484DE9B00742CA0 /* AddtoCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddtoCartViewController.swift; sourceTree = "<group>"; };
+		52552F47248554B200742CA0 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		52552F4A2485A83200742CA0 /* Cera Pro Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cera Pro Medium.otf"; sourceTree = "<group>"; };
+		52552F4B2485A83200742CA0 /* Cera Pro Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cera Pro Thin.otf"; sourceTree = "<group>"; };
+		52552F4C2485A83200742CA0 /* Cera Pro Regular Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cera Pro Regular Italic.otf"; sourceTree = "<group>"; };
+		52552F4D2485A83200742CA0 /* Cera Pro Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cera Pro Bold Italic.otf"; sourceTree = "<group>"; };
+		52552F4E2485A83200742CA0 /* Cera Pro Light Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cera Pro Light Italic.otf"; sourceTree = "<group>"; };
+		52552F4F2485A83200742CA0 /* Cera Pro Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cera Pro Bold.otf"; sourceTree = "<group>"; };
+		52552F502485A83300742CA0 /* Cera Pro Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cera Pro Regular.otf"; sourceTree = "<group>"; };
+		52552F512485A83300742CA0 /* Cera Pro Thin Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cera Pro Thin Italic.otf"; sourceTree = "<group>"; };
+		52552F522485A83300742CA0 /* Cera Pro Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cera Pro Black.otf"; sourceTree = "<group>"; };
+		52552F532485A83300742CA0 /* Cera Pro Black Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cera Pro Black Italic.otf"; sourceTree = "<group>"; };
+		52552F542485A83300742CA0 /* Cera Pro Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cera Pro Light.otf"; sourceTree = "<group>"; };
+		52552F552485A83300742CA0 /* Cera Pro Medium Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cera Pro Medium Italic.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52552F292481704500742CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52552F232481704500742CA0 = {
+			isa = PBXGroup;
+			children = (
+				52552F2E2481704500742CA0 /* FranksCheese */,
+				52552F2D2481704500742CA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52552F2D2481704500742CA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52552F2C2481704500742CA0 /* FranksCheese.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52552F2E2481704500742CA0 /* FranksCheese */ = {
+			isa = PBXGroup;
+			children = (
+				52552F492485A81600742CA0 /* Fonts */,
+				52552F2F2481704500742CA0 /* AppDelegate.swift */,
+				52552F332481704500742CA0 /* ViewController.swift */,
+				52552F352481704500742CA0 /* Main.storyboard */,
+				52552F382481705A00742CA0 /* Assets.xcassets */,
+				52552F3A2481705A00742CA0 /* LaunchScreen.storyboard */,
+				52552F3D2481705A00742CA0 /* Info.plist */,
+				52552F432481823700742CA0 /* CheeseListViewController.swift */,
+				52552F452484DE9B00742CA0 /* AddtoCartViewController.swift */,
+				52552F47248554B200742CA0 /* Extentions.swift */,
+			);
+			path = FranksCheese;
+			sourceTree = "<group>";
+		};
+		52552F492485A81600742CA0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				52552F532485A83300742CA0 /* Cera Pro Black Italic.otf */,
+				52552F522485A83300742CA0 /* Cera Pro Black.otf */,
+				52552F4D2485A83200742CA0 /* Cera Pro Bold Italic.otf */,
+				52552F4F2485A83200742CA0 /* Cera Pro Bold.otf */,
+				52552F4E2485A83200742CA0 /* Cera Pro Light Italic.otf */,
+				52552F542485A83300742CA0 /* Cera Pro Light.otf */,
+				52552F552485A83300742CA0 /* Cera Pro Medium Italic.otf */,
+				52552F4A2485A83200742CA0 /* Cera Pro Medium.otf */,
+				52552F4C2485A83200742CA0 /* Cera Pro Regular Italic.otf */,
+				52552F502485A83300742CA0 /* Cera Pro Regular.otf */,
+				52552F512485A83300742CA0 /* Cera Pro Thin Italic.otf */,
+				52552F4B2485A83200742CA0 /* Cera Pro Thin.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52552F2B2481704500742CA0 /* FranksCheese */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52552F402481705A00742CA0 /* Build configuration list for PBXNativeTarget "FranksCheese" */;
+			buildPhases = (
+				52552F282481704500742CA0 /* Sources */,
+				52552F292481704500742CA0 /* Frameworks */,
+				52552F2A2481704500742CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FranksCheese;
+			productName = FranksCheese;
+			productReference = 52552F2C2481704500742CA0 /* FranksCheese.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52552F242481704500742CA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = BennyTest;
+				TargetAttributes = {
+					52552F2B2481704500742CA0 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 52552F272481704500742CA0 /* Build configuration list for PBXProject "FranksCheese" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52552F232481704500742CA0;
+			productRefGroup = 52552F2D2481704500742CA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52552F2B2481704500742CA0 /* FranksCheese */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52552F2A2481704500742CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52552F572485A83300742CA0 /* Cera Pro Thin.otf in Resources */,
+				52552F3C2481705A00742CA0 /* LaunchScreen.storyboard in Resources */,
+				52552F5A2485A83300742CA0 /* Cera Pro Light Italic.otf in Resources */,
+				52552F5C2485A83300742CA0 /* Cera Pro Regular.otf in Resources */,
+				52552F392481705A00742CA0 /* Assets.xcassets in Resources */,
+				52552F372481704500742CA0 /* Main.storyboard in Resources */,
+				52552F5E2485A83300742CA0 /* Cera Pro Black.otf in Resources */,
+				52552F5F2485A83300742CA0 /* Cera Pro Black Italic.otf in Resources */,
+				52552F612485A83300742CA0 /* Cera Pro Medium Italic.otf in Resources */,
+				52552F582485A83300742CA0 /* Cera Pro Regular Italic.otf in Resources */,
+				52552F562485A83300742CA0 /* Cera Pro Medium.otf in Resources */,
+				52552F5B2485A83300742CA0 /* Cera Pro Bold.otf in Resources */,
+				52552F592485A83300742CA0 /* Cera Pro Bold Italic.otf in Resources */,
+				52552F5D2485A83300742CA0 /* Cera Pro Thin Italic.otf in Resources */,
+				52552F602485A83300742CA0 /* Cera Pro Light.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52552F282481704500742CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52552F442481823700742CA0 /* CheeseListViewController.swift in Sources */,
+				52552F462484DE9B00742CA0 /* AddtoCartViewController.swift in Sources */,
+				52552F48248554B200742CA0 /* Extentions.swift in Sources */,
+				52552F342481704500742CA0 /* ViewController.swift in Sources */,
+				52552F302481704500742CA0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52552F352481704500742CA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52552F362481704500742CA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52552F3A2481705A00742CA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52552F3B2481705A00742CA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52552F3E2481705A00742CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52552F3F2481705A00742CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52552F412481705A00742CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FranksCheese/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MY_API_BASE_URL_ENDPOINT = "http://localhost:8888/";
+				PRODUCT_BUNDLE_IDENTIFIER = com.d4dalby..FranksCheese;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		52552F422481705A00742CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FranksCheese/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MY_API_BASE_URL_ENDPOINT = "http://localhost:8888/";
+				PRODUCT_BUNDLE_IDENTIFIER = com.d4dalby..FranksCheese;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52552F272481704500742CA0 /* Build configuration list for PBXProject "FranksCheese" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52552F3E2481705A00742CA0 /* Debug */,
+				52552F3F2481705A00742CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52552F402481705A00742CA0 /* Build configuration list for PBXNativeTarget "FranksCheese" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52552F412481705A00742CA0 /* Debug */,
+				52552F422481705A00742CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52552F242481704500742CA0 /* Project object */;
+}
